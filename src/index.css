@@ -26,8 +26,8 @@ body {
 
 #videos {
   position: relative;
-  height: 85vh;
-  width: 95vw;
+  min-height: 85vh;
+  min-width: 95vw;
   margin: auto;
   align-self: flex-start;
   display: grid;
@@ -39,8 +39,8 @@ body {
 .vid {
   position: relative;
   background-color: black;
-  height: 85%;
-  width: 85%;
+  height: 100%;
+  width: 100%;
   border-width: 1px;
   border-color: #38373a;
   border-style: solid;
