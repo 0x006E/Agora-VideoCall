@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/agora-videocall/static/css/main.055a14b4.chunk.css",
+    "main.css": "/agora-videocall/static/css/main.c46d3fc8.chunk.css",
     "main.js": "/agora-videocall/static/js/main.c626420d.chunk.js",
     "main.js.map": "/agora-videocall/static/js/main.c626420d.chunk.js.map",
     "runtime-main.js": "/agora-videocall/static/js/runtime-main.944b1e40.js",
@@ -10,13 +10,13 @@
     "static/js/3.1bd8e98c.chunk.js": "/agora-videocall/static/js/3.1bd8e98c.chunk.js",
     "static/js/3.1bd8e98c.chunk.js.map": "/agora-videocall/static/js/3.1bd8e98c.chunk.js.map",
     "index.html": "/agora-videocall/index.html",
-    "static/css/main.055a14b4.chunk.css.map": "/agora-videocall/static/css/main.055a14b4.chunk.css.map",
+    "static/css/main.c46d3fc8.chunk.css.map": "/agora-videocall/static/css/main.c46d3fc8.chunk.css.map",
     "static/js/2.f693658d.chunk.js.LICENSE.txt": "/agora-videocall/static/js/2.f693658d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.944b1e40.js",
     "static/js/2.f693658d.chunk.js",
-    "static/css/main.055a14b4.chunk.css",
+    "static/css/main.c46d3fc8.chunk.css",
     "static/js/main.c626420d.chunk.js"
   ]
 }
