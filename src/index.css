@@ -7,8 +7,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f7f7f7;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
-
+body::after {
+  content: "";
+  filter: blur(10px);
+  position: absolute;
+  width: 104%;
+  height: 104%;
+  background-image: url("https://i.imgur.com/esLy4J4.jpg");
+  top: -10px;
+  left: -10px;
+}
 .App {
   position: relative;
   display: grid;
@@ -20,8 +35,11 @@ body {
 
 .heading {
   text-align: center;
-  align-self: flex-start;
+  width: 100%;
   margin-bottom: 0;
+  color: white;
+  z-index: 100;
+  position: sticky;
 }
 
 #videos {
@@ -37,7 +55,6 @@ body {
 }
 
 .vid {
-  position: relative;
   background-color: black;
   height: 100%;
   width: 100%;
@@ -46,6 +63,7 @@ body {
   border-style: solid;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 100;
 }
 
 .controls {
@@ -58,7 +76,7 @@ body {
   grid-template-columns: repeat(3, 33%);
   align-items: center;
   justify-items: center;
-  z-index: 1;
+  z-index: 101;
   width: 500px;
   max-width: 60vw;
 }
@@ -98,27 +116,29 @@ body {
   padding: 15px;
   font-size: 1rem;
   border-width: 1px;
-  border-color: #38373a;
+  border-color: dodgerblue;
   border-style: solid;
   width: 80%;
   display: block;
   margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .join button {
   min-width: 200px;
   padding: 12px 0;
   text-align: center;
-  background-color: #38373a;
-  color: #f7f7f7;
-  border-width: 1px;
-  border-color: #f7f7f7;
-  border-style: solid;
+  background-color: dodgerblue;
+  color: #fff;
   font-size: 1rem;
   font-weight: 400;
   cursor: pointer;
   display: block;
   margin: 0 auto;
+  border-radius: 50px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .controls button {
@@ -128,6 +148,7 @@ body {
   border: none;
   background: dodgerblue;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 100;
 }
 .w-6 {
   width: 30px;
